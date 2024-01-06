@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Josefin+Sans:ital,wght@1,300&family=Macondo&family=Roboto&family=Rubik+Glitch&family=Space+Grotesk:wght@500&family=Tektur&family=Vina+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    color: rgb(0, 0, 0);
+    font-family: 'Tektur', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#2d324e;
+}
+
+h1{
+
+    color: #ff9a47;
+}
+.title{
+    margin: 20px 0;
+}
+
+.main {
+    background-color: #babed6;
+    border: 3px solid white,;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.name{
+    display: flex;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 8px 16px;
+    color: #ff9a47;
+}
+
+.name > span{
+    color: #2D3250;
+}
+
+.name-input{
+    font-size: 24px;
+    font-weight: 700;
+    color:  #000000;;
+    flex-grow: 1;
+    border: none;
+    margin: 0px 12px;
+    outline: none;
+    background-color: #babed6;
+}
+
+.message-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    width: 410px;
+    height: 600px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.message-left, .message-right{
+    list-style: none;
+    padding: 8px 12px;
+    margin: 12px;
+    max-width: 250px;
+    font-size: 18px;
+    word-wrap: break-word;
+}
+.message-left{
+    border-radius: 20px 20px 20px 0px;
+    align-self: flex-start;
+    background-color: #fff;
+    box-shadow: -2px 2px 4px ;
+}
+.message-right{
+    border-radius: 20px 20px 0px 20px;
+    align-self: flex-end;
+    background-color:  #2D3250;
+    box-shadow: 2px 2px 4px #7077A1;
+    color: white;
+}
+
+
+.message-left > p > span, .message-right > p > span {
+    display: block;
+    font-size: italic;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.feedback{
+    font-style: italic;
+    font-size: 14px;
+    padding: 0px 16px 16px 16px;
+    color: #2D3250;
+    text-align: center;
+}
+
+.message-form{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+
+}
+
+.message-input{
+    flex-grow: 1;
+    height: 48px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 0 12px;
+    background-color: #fff;
+}
+.send-button{
+    height: 48px;
+    width: 100px;
+    font-size: 16px;
+    border: none;
+    padding: 0px 20px;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.v-divider{
+    height: 48px;
+    width: 2px;
+    background-color: #f6f6f6;
+}
+
+.clients-total{
+    margin: 20px 0;
+    color: #babed6;
+}
+
+
